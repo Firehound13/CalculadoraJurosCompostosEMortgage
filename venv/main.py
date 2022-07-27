@@ -1,6 +1,6 @@
 import locale
 locale.setlocale(locale.LC_MONETARY, 'pt_br')
-from mortgate import loan
+from mortgage import loan
 
 from helpers import juros_compostos
 if __name__ == '__main__':
